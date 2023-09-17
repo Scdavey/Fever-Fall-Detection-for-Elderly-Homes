@@ -1,0 +1,209 @@
+/*More styleing for the html pages*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+body {
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.Logout {
+   position: absolute;
+   bottom: 4px;
+   right: 4px;
+}
+
+.Back {
+   position: absolute;
+   bottom: 4px;
+   right: 4px;
+}
+
+.login-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff; 
+}
+
+.register-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.addPatient-form {
+    width: 350px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.login-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.register-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.search p {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.addPatient-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.index-form {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 20px;
+    margin: 15px 0;
+    width: 50%;
+}
+
+table {
+    Height: 100%;
+    width: 100%;
+    position: relative;
+    overflow:scroll;
+}
+
+tr {
+    line-height: 50px;
+}
+
+td {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddd;
+}
+
+.login-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.register-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.search input {
+    position: relative;
+    font-size: 16px;
+    width: 25%;
+    height: 45px;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.addPatient-form input {
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.login-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.addPatient-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.register-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+
+.search button {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 10%;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.index-form button {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
